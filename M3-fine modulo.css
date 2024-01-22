@@ -1,0 +1,20 @@
+body {
+    background-color: #141414;
+    color: #fff;
+  }
+  
+.container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.icons-custom i {
+    width: 25%;
+    height: 25%;
+}
+
+.nav-item {
+    font-size: 13px;
+}
+

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Netflix clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="M3-fine modulo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <container class="all row mx-5">
+    <nav class="navbar navbar-expand navbar-dark bg-dark ">
+      <a class="navbar-brand" href="#">
+        <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/Netflix_Logo_RGB.png" alt="Logo Netflix" width="70">
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TV Shows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Recently Added</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My List</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item p-2">
+            <i class="fa-solid icons-custom fa-magnifying-glass"></i>
+          </li>
+          <li class="nav-item p-1">
+            <a class="nav-link " href="#">KIDS</a>
+          </li>
+          <li class="nav-item p-2">
+            <i class="fa-solid icons-custom fa-bell"></i>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <img src="file:///Users/mac/Downloads/M3%20finale/profilovuoto.jpg" alt="Profile" width="30" class="rounded-circle">
+            </a>
+          </li>  
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron ">
+      
+      <div class="title">
+        <span class="firstTitle d-block">TV Shows</span>
+        <div class="dropdown d-block">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Genere
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Storico</a></li>
+            <li><a class="dropdown-item" href="#">Azione</a></li>
+            <li><a class="dropdown-item" href="#">Romantico</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="first">
+        <h5>Trending now</h5>
+        <div id="firstCarousel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/movies/1.png" class="d-flex w-25" alt="pic1">
+            </div>
+        
+            <div class="carousel-item">
+              <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/movies/2.png" class="d-flex w-25" alt="pic2">
+            </div>
+        
+            <div class="carousel-item">
+              <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/movies/3.png" class="d-flex w-25" alt="pic3">
+            </div>
+        
+            <div class="carousel-item">
+              <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/movies/4.png" class="d-flex w-25" alt="pic4">
+            </div>
+        
+            <div class="carousel-item">
+              <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/movies/5.png" class="d-flex w-25" alt="pic5">
+            </div>
+          </div>
+      
+          <button class="carousel-control-prev" type="button" data-bs-target="#firstCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#firstCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      
+      <div class="second">
+        <h5>Watch it again</h5>
+        <div id="secondCarousel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/movies/6.png" class="d-flex w-25" alt="pic6">
+            </div>
+        
+            <div class="carousel-item">
+              <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/movies/7.png" class="d-flex w-25" alt="pic7">
+            </div>
+        
+            <div class="carousel-item">
+              <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/movies/8.png" class="d-flex w-25" alt="pic8">
+            </div>
+        
+            <div class="carousel-item">
+              <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/movies/9.png" class="d-flex w-25" alt="pic9">
+            </div>
+        
+            <div class="carousel-item">
+              <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/movies/10.png" class="d-flex w-25" alt="pic10">
+            </div>
+          </div>
+      
+          <button class="carousel-control-prev" type="button" data-bs-target="#firstCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#firstCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+ 
+      <div class="third">
+        <h5>New releses</h5>
+        <div id="thirdCarousel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/movies/11.png" class="d-flex w-25" alt="pic11">
+            </div>
+        
+            <div class="carousel-item">
+              <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/movies/12.png" class="d-flex w-25" alt="pic12">
+            </div>
+        
+            <div class="carousel-item">
+              <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/movies/13.png" class="d-flex w-25" alt="pic13">
+            </div>
+        
+            <div class="carousel-item">
+              <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/movies/14.png" class="d-flex w-25" alt="pic14">
+            </div>
+        
+            <div class="carousel-item">
+              <img src="file:///Users/mac/Downloads/M3%20finale/assets/imgs/movies/15.png" class="d-flex w-25" alt="pic15">
+            </div>
+          </div>
+      
+          <button class="carousel-control-prev" type="button" data-bs-target="#firstCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#firstCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+
+    </div>
+
+  </container>
+    
+
+  <script src="https://kit.fontawesome.com/12393d885a.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
